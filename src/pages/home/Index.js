@@ -6,12 +6,14 @@ import PageContent from '../../components/content/Index';
 
 const Home = () => {
 
+    const companyName = "Our Company";
+
     return (
         <div>
             <Layout>
                 <TopHeader />
                 <PageContent />
-                <MyFooter/>
+                <MyFooter name={companyName}/>
             </Layout>
         </div>
     );

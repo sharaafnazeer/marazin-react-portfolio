@@ -1,0 +1,13 @@
+.footer-icon-name {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.ant-image {
+    display: flex;
+}
+
+.ant-image .footer-logo {
+    align-self: center;
+}
