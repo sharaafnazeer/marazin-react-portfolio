@@ -1,0 +1,15 @@
+.content-section {
+    padding: 24px 50px;
+}
+
+.section-text {
+    font-size: 18px !important;
+}
+
+.client-card .ant-card-body .ant-card-grid{
+    display: flex;
+}
+
+.section-client {
+    background-color: #ffffff9c;
+}

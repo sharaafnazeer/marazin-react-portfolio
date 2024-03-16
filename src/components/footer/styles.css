@@ -11,3 +11,16 @@
 .ant-image .footer-logo {
     align-self: center;
 }
+
+.footer-background {
+    background-color: #001529;
+    
+}
+
+.footer-background .ant-typography {
+    color: #fff;
+}
+
+.footer-background a {
+    color: #fff;
+}

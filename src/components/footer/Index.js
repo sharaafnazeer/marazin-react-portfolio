@@ -2,7 +2,7 @@ import {React} from 'react';
 import {Layout, Row, Col, Image, Typography, Space, Flex} from 'antd';
 import {FacebookOutlined, TwitterOutlined, LinkedinOutlined, InstagramOutlined} from '@ant-design/icons'
 
-import '../footer/styles.css'
+import './styles.css'
 
 const { Footer } = Layout;
 const { Title } = Typography;
@@ -10,7 +10,7 @@ const { Title } = Typography;
 const MyFooter = ({name}) => {
 
     return (
-        <Footer>
+        <Footer className='footer-background'>
 
             <Row>
                 <Col span={12}>
@@ -26,10 +26,10 @@ const MyFooter = ({name}) => {
                     <Row>
                         <Col span={12}>
                             <Space>
-                                <FacebookOutlined style={{ fontSize: '24px', color: '#08c' }}/>
-                                <TwitterOutlined style={{ fontSize: '24px', color: '#08c' }}/>
-                                <LinkedinOutlined style={{ fontSize: '24px', color: '#08c' }}/>
-                                <InstagramOutlined style={{ fontSize: '24px', color: '#08c' }}/>
+                                <FacebookOutlined style={{ fontSize: '24px', color: '#fff' }}/>
+                                <TwitterOutlined style={{ fontSize: '24px', color: '#fff' }}/>
+                                <LinkedinOutlined style={{ fontSize: '24px', color: '#fff' }}/>
+                                <InstagramOutlined style={{ fontSize: '24px', color: '#fff' }}/>
                             </Space>
                         </Col>
                     </Row>
@@ -37,7 +37,7 @@ const MyFooter = ({name}) => {
 
                 <Col span={12}>
 
-                    <Flex horizontal={true} justify={'space-evenly'} align={'center'}>
+                    <Flex justify={'space-evenly'} align={'center'}>
                         
                         <a href='https://google.com'>Home</a>
                         <a href='https://google.com'>Blog</a>
